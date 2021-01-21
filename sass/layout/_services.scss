@@ -1,7 +1,12 @@
 @import '../utils/_variables';
 
 
-
+.services-banner{
+  padding-top: 5rem;
+  h2 { 
+    color: $--clr-primary-1;
+  }
+}
 
 
 .services{

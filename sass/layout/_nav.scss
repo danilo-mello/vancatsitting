@@ -1,10 +1,12 @@
 @import '../utils/_variables';
 
 .navbar {
+  position:fixed;
   top: 0;
   left: 0;
   width: 100%;
   background: $--clr-white;
+  opacity: 0.8;
   box-shadow: $--dark-shadow;
   z-index: 2;
   ul {

@@ -5,6 +5,7 @@
 
 
 .contact{
+    // margin-top: 5rem;
     z-index:0;
     display: flex;
     flex-direction: row;
@@ -23,16 +24,17 @@
     // margin: 10rem 5rem 5rem 0rem;
     z-index:1;
     margin-left: 10rem;
+    margin-top:10rem;
     background-color: $--clr-white;
-    opacity: 1;
+    opacity: .66;
     padding: 2rem;
     border: 1px solid rgba(0, 0, 0, 0);
     -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .1);
     -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
     box-shadow: 0 3px 9px rgba(0, 0, 0, 1);
-    input {
-        // background-color: transparent;
-    }
+    // input {
+    //     // background-color: transparent;
+    // }
 }
 
 .contact input {
