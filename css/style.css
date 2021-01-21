@@ -94,7 +94,8 @@ p {
 .contact input {
   width: 30em;
   height: 3em;
-  margin-right: 1%; }
+  margin-right: 1%;
+  opacity: 1; }
   .contact input input::placeholder {
     font-size: 2rem;
     text-transform: upppercase; }
@@ -121,7 +122,10 @@ h2 {
     align-items: center;
     text-align: center; }
   .contact-form {
-    margin-left: 0; } }
+    margin-left: 0;
+    margin-top: 1rem; }
+  .contact-text {
+    padding-right: 0; } }
 
 .gallery {
   display: grid;
@@ -309,7 +313,7 @@ h2 {
     justify-content: center;
     align-items: center;
     width: 100%; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 992px) {
     .reviews {
       /* half-width cells for larger devices */ }
       .reviews .reviews-card {
