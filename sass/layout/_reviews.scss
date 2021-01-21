@@ -4,40 +4,52 @@
 
 
 .main-gallery{
-    padding: 5rem;
+    padding: 10rem;
 }
 
 .review-img{
-    
-    width: 10rem;
-    height: 10rem;
+    margin-right: 1rem;
+    width: 20rem;
+    height: auto;
+    display: flex;
     text-align: center;
-    display: block;
+    justify-content: center;
+    
+    
     img{
-
+        border-radius: 5%;
+        box-shadow: $--dark-shadow;
     }
 }
 
-.review-text{
-}
 
 .reviews{
     background: $--clr-primary-2;
     color: $--clr-primary-1;
 
     .reviews-card{
+        margin-left: 2rem;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 15rem;
-        width: 40%;
+        width: 100%;
         
-
     }
 
+    @media screen and ( min-width: 768px ) {
+    /* half-width cells for larger devices */
+        .reviews-card { width: 50%; }
+    }
+
+    .reviews-text {
+        padding: 2rem;
+        box-shadow: $--dark-shadow;
+        p {
+            color: $--clr-primary-1;
+        }
+    }
+
+
 }
 
-@media screen and ( min-width: 768px ) {
-  .reviews-card { width: 100%; }
-}
