@@ -1,0 +1,91 @@
+@import '../utils/_variables';
+
+
+
+
+
+.footer{
+    background-color: $--clr-primary-2;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-bottom: 0;
+
+    a {
+        text-decoration: none;
+        color: $--clr-primary-4;
+        transition: $--transition;
+    }
+    a:hover{
+        color: $--clr-primary-1;
+    }
+    .footer-links{
+        padding: 1rem;
+        a{
+            padding-right: 2rem;
+        }
+
+    }
+    .footer-social{
+        color: $--clr-white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+
+    }
+    .footer-cr{
+        padding: 1.5rem;
+        text-align: center;
+        h6{
+            color: $--clr-primary-4;
+        }
+    }
+    .footer-social-icon{
+        border-radius: 50%;
+        height: 3rem;
+        width: 3rem;
+        text-align: center;
+        display: block;
+        font-size: 2rem;
+        margin: 0.75rem;
+    }
+    .footer-social-icon-fac{
+        background: #3b5998;
+    }
+    .footer-social-icon-fac:hover{
+        background: $--clr-white;
+        color: $--clr-white#3b5998;
+    }
+
+    .footer-social-icon-ins{
+        background: #E1306C;
+    }
+
+    .footer-social-icon-ins:hover{
+        background: $--clr-white;
+        color: #E1306C;
+    }
+
+    .footer-social-icon-twi{
+        background: #1DA1F2;
+
+    }
+
+    .footer-social-icon-twi:hover{
+        background-color: $--clr-white;
+        color: #1DA1F2;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

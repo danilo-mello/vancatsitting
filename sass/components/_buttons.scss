@@ -1,0 +1,19 @@
+@import '../utils/_variables';
+
+.btn {
+  text-transform: uppercase;
+  background: $--clr-primary-3;
+  color: $--clr-white;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: $--spacing;
+  display: inline-block;
+  transition: $--transition;
+  font-size: 0.875rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.btn:hover {
+  color: $--clr-primary-1;
+  background: $--clr-primary-2;
+}

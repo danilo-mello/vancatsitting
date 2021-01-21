@@ -1,0 +1,22 @@
+{
+  "name": "vancatsitting_v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilo-mello/web-dev1-assigment3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilo-mello/web-dev1-assigment3/issues"
+  },
+  "homepage": "https://github.com/danilo-mello/web-dev1-assigment3#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

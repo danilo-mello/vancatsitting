@@ -1,0 +1,6 @@
+@import './_variables';
+
+@mixins icons {
+    text-decoration: none;
+    color: $--clr-primary-1;
+}

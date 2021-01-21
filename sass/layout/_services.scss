@@ -1,0 +1,58 @@
+@import '../utils/_variables';
+
+
+
+
+
+.services{
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+    .services-card{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        transform: $--transition;
+    }
+
+
+    .services-icon{
+        font-size: 4rem;
+        border-radius: 50%;
+        color: $--clr-primary-1;
+        background-color: $--clr-primary-4;
+        height: 8rem;
+        width: 8rem;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 8rem;
+        transform: $--transition;
+        box-shadow: $--dark-shadow;
+    }
+
+    .services-icon:hover{
+        transform: scale(1.05);
+    }
+
+    .services-text{
+        h3{
+            padding-top: 1rem;
+        }
+        p{
+            padding: 0.5rem;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

@@ -1,0 +1,43 @@
+
+
+
+
+
+.main-gallery{
+    padding: 5rem;
+}
+
+.review-img{
+    
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    display: block;
+    img{
+
+    }
+}
+
+.review-text{
+}
+
+.reviews{
+    background: $--clr-primary-2;
+    color: $--clr-primary-1;
+
+    .reviews-card{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 15rem;
+        width: 40%;
+        
+
+    }
+
+}
+
+@media screen and ( min-width: 768px ) {
+  .reviews-card { width: 100%; }
+}
