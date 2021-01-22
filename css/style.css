@@ -82,7 +82,7 @@ p {
 .contact-form {
   z-index: 1;
   margin-left: 10rem;
-  margin-top: 10rem;
+  margin-top: 0;
   background-color: #fff;
   opacity: .85;
   padding: 2rem;
