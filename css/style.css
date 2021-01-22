@@ -84,7 +84,7 @@ p {
   margin-left: 10rem;
   margin-top: 10rem;
   background-color: #fff;
-  opacity: .66;
+  opacity: .85;
   padding: 2rem;
   border: 1px solid rgba(0, 0, 0, 0);
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
@@ -192,7 +192,6 @@ h2 {
     flex-direction: column; } }
 
 .navbar {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -212,7 +211,6 @@ h2 {
 
 .nav-center {
   width: 100%;
-  max-width: 1170px;
   margin: 0 auto; }
 
 .nav-header {
@@ -270,8 +268,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* optional */
-    flex-wrap: wrap; }
+    /* optional */ }
   .nav-links {
     height: auto;
     display: flex; }
@@ -294,7 +291,7 @@ h2 {
 
 .review-img {
   margin-right: 1rem;
-  width: 33%;
+  width: 80%;
   height: auto;
   display: flex;
   text-align: center;
@@ -356,10 +353,12 @@ h2 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); }
   .services .services-icon:hover {
     transform: scale(1.05); }
-  .services .services-text h3 {
-    padding-top: 1rem; }
-  .services .services-text p {
-    padding: 0.5rem; }
+  .services .services-text {
+    width: 20rem; }
+    .services .services-text h3 {
+      padding-top: 1rem; }
+    .services .services-text p {
+      padding: 0.5rem; }
 
 @media (max-width: 992px) {
   .services {
